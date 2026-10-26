@@ -1452,7 +1452,7 @@ const Inspector = ( { attributes, setAttributes } ) => {
 					{ navigationArrowPosition === 'bottom-center' && (
 						<>
 							<ResponsiveRangeControl
-								label={ __( 'Top Offset', 'gslider-blocks' ) }
+								label={ __( 'Bottom Offset', 'gslider-blocks' ) }
 								rangeValue={
 									navigationArrowPositionBottomOffset
 								}
@@ -1505,7 +1505,7 @@ const Inspector = ( { attributes, setAttributes } ) => {
 					{ navigationArrowPosition === 'bottom-right' && (
 						<>
 							<ResponsiveRangeControl
-								label={ __( 'Top Offset', 'gslider-blocks' ) }
+								label={ __( 'Bottom Offset', 'gslider-blocks' ) }
 								rangeValue={
 									navigationArrowPositionBottomOffset
 								}
